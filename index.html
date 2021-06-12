@@ -1,0 +1,16 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <textarea id="left" v-model="converted" placeholder="Input here"></textarea>
+    <textarea id="right">{{ logBeautify(converted) }}</textarea>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
