@@ -6,9 +6,10 @@
 </head>
 
 <body>
+  <script src="conch.js"></script>
   <div id="app">
-    <textarea id="left" v-model="converted" placeholder="Input here"></textarea>
-    <textarea id="right">{{ logBeautify(converted) }}</textarea>
+    <textarea id="left" v-model="input" placeholder="Input here"></textarea>
+    <textarea id="right">{{ logBeautify(input) }}</textarea>
   </div>
   <script src="index.js"></script>
 </body>
